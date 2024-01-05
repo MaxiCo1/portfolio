@@ -1,0 +1,228 @@
+{
+    "dataENG":
+    {
+        "about":
+        {
+            "titles":{
+                "first":"About me",
+                "second":"Skills",
+                "third":"Languages"
+            },
+            "description": "As a recent graduate in frontend programming, I am eager to apply my skills and knowledge to real-world projects. I am excited to work with a team of experienced developers to learn from their expertise and contribute to the success of the company.", 
+            "skills": ["HTML5","Next.js","JavaScript", "UI design", "CSS", "UX design", "React", "Unity"], 
+            "skillPoints":[4,3,3,3,4,3,3,2], 
+            "languages":["Spanish", "English"], 
+            "languagesPoints":[5,4]
+        }, 
+        "projects":[
+        {
+            "id": "rickMorty",
+            "title": "Rick & Morty",
+            "title2": "Used technologies",
+            "image": "/rick&morty.jpg",
+            "description":  "This project was one of the first ones I did, in which what was learned in React, Bulma and APIs was put into practice.",
+            "technologies": "",
+            "buttons":
+            [
+                {          
+                    "logo": "/github-logo.svg",
+                    "text": "View on Github",
+                    "url": "https://github.com/MaxiCo1/rick-morty.git"
+                },
+                {          
+                    "logo": "/vercel-logo.svg",
+                    "text": "View on Vercel",
+                    "url": "http://rick-morty-umber.vercel.app/"
+                }
+            ]
+        },
+        {
+            "id": "buensai",
+            "title": "Buensai",
+            "title2": "Used technologies",
+            "image": "/buensai.png",
+            "description":  "Throughout this university project, the goal was to collaboratively develop an E-Commerce in order to apply what was learned during the year.",
+            "technologies": "Next.js, HTML, CSS, Firebase",
+            "buttons":
+            [
+                {          
+                    "logo": "/github-logo.svg",
+                    "text": "View on Github",
+                    "url": "https://github.com/papuzinH/buensai.git"
+                },
+                {          
+                    "logo": "/vercel-logo.svg",
+                    "text": "View on Vercel",
+                    "url": "http://buensai-vert.vercel.app/"
+                }
+            ]
+        },
+        {
+            "id": "runner",
+            "title": "Runner game",
+            "title2": "Used technologies",
+            "image": "/runner.png",
+            "description":  "Throughout this university project, the aim was to develop a runner genre video game in order to learn the basics of C# and Unity.",
+            "technologies": "Unity & C#",
+            "buttons":
+            [
+                {          
+                    "logo": "/github-logo.svg",
+                    "text": "View on Github",
+                    "url": "https://github.com/cdejtiar/runnerDinoUnity.git"
+                }
+            ]
+        },
+        {
+            "id": "intoximate",
+            "title": "Intoximate",
+            "title2": "Used technologies",
+            "image": "/intoximate.png",
+            "description":  "The objective of this project was to improve time and organization skills in a project as close to reality as possible. Prioritizing this, the aim was to develop an MVP of a cocktails and games app for partys.",
+            "technologies": "React Native, Expo, Axios",
+            "buttons":
+            [
+                {          
+                    "logo": "/github-logo.svg",
+                    "text": "View on Github",
+                    "url": "https://github.com/MaxiCo1/Intoximate.git"
+                }
+            ]
+        }
+    ],
+    "navbar": 
+    [
+        {
+                "text": "Home",
+                "url": "/"
+            },
+            {
+                "text": "About me",
+                "url": "/about"
+            },
+            {
+                "text": "Projects",
+                "url": "/projects"
+            },
+            {
+                "text": "Contact",
+                "url": "/contact"
+            }
+    ], "contact": "Phone"
+        
+    },"dataESP":
+    {
+        "about":
+        {
+            "titles":{
+                "first":"Sobre mí",
+                "second":"Habilidades",
+                "third":"Idiomas"
+            },
+            
+            "description": "Como recién graduado en programación frontend, estoy ansioso por aplicar mis habilidades y conocimientos a proyectos del mundo real. Estoy emocionado de trabajar con un equipo de desarrolladores experimentados para aprender de su experiencia y contribuir al éxito de la empresa.", 
+            "skills": ["HTML5","Next.js","JavaScript", "Diseño UI", "CSS", "Diseño UX", "React", "Unity"], 
+            "skillPoints":[4,3,3,3,4,3,3,2], 
+            "languages":["Español", "Ingles"], 
+            "languagesPoints":[5,4]
+        }, 
+        "projects":[
+        {
+            "id": "rickMorty",
+            "title": "Rick & Morty",
+            "title2": "Tecnologías utilizadas",
+            "image": "/rick&morty.jpg",
+            "description":  "Este proyecto fue de los primeros que hice, en los que se puso en práctica lo visto en React, Bulma y el llamado a una API.",
+            "technologies": "HTML, Bulma, React",
+            "buttons":
+            [
+                {          
+                    "logo": "/github-logo.svg",
+                    "text": "Ver en Github",
+                    "url": "https://github.com/MaxiCo1/rick-morty.git"
+                },
+                {          
+                    "logo": "/vercel-logo.svg",
+                    "text": "Ver en Vercel",
+                    "url": "http://rick-morty-umber.vercel.app/"
+                }
+            ]
+        },
+        {
+            "id": "buensai",
+            "title": "Buensai",
+            "title2": "Tecnologías utilizadas",
+            "image": "/buensai.png",
+            "description":  "A lo largo de este proyecto universitario se buscó desarrollar en grupo un E-Commerce con el fin de aplicar lo aprendido durante el año.",
+            "technologies": "Next.js, HTML, CSS, Firebase, Axios",
+            "buttons":
+            [
+                {          
+                    "logo": "/github-logo.svg",
+                    "text": "Ver en Github",
+                    "url": "https://github.com/papuzinH/buensai.git"
+                },
+                {          
+                    "logo": "/vercel-logo.svg",
+                    "text": "Ver en Vercel",
+                    "url": "http://buensai-vert.vercel.app/"
+                }
+            ]
+        },
+        {
+            "id": "runner",
+            "title": "Juego Runner",
+            "title2": "Tecnologías utilizadas",
+            "image": "/runner.png",
+            "description":  "A lo largo de este proyecto universitario se buscó desarrollar un videojuego del género runner para así aprender las bases de C# y Unity.",
+            "technologies": "Unity & C#",
+            "buttons":
+            [
+                {          
+                    "logo": "/github-logo.svg",
+                    "text": "Ver en Github",
+                    "url": "https://github.com/cdejtiar/runnerDinoUnity.git"
+                }
+            ]
+        },
+        {
+            "id": "intoximate",
+            "title": "Intoximate",
+            "title2": "Tecnologías utilizadas",
+            "image": "/intoximate.png",
+            "description":  "Este proyecto tuvo como objetivo mejorar la gestión y organización de tiempos en un proyecto lo más cercano a lo real. Priorizando esto, se buscó desarrollar un MVP de una aplicación de tragos y juegos para eventos.",
+            "technologies": "React Native, Expo, Axios",
+            "buttons":
+            [
+                {          
+                    "logo": "/github-logo.svg",
+                    "text": "Ver en Github",
+                    "url": "https://github.com/MaxiCo1/Intoximate.git"
+                }
+            ]
+        }
+    ],
+    "navbar": 
+    [
+        
+        {
+            "text": "Hogar",
+            "url": "/"
+        },
+        {
+            "text": "Sobre mí",
+            "url": "/about"
+        },
+        {
+            "text": "Proyectos",
+            "url": "/projects"
+        },
+        {
+            "text": "Contacto",
+            "url": "/contact"
+        }
+        
+    ], "contact": "Celular"
+        
+    }
+}

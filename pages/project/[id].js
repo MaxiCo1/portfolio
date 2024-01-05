@@ -11,7 +11,11 @@ const IndividualProject = () => {
   const params = useParams();
   const id = params.id;
   const project = dataLanguage.projects.find((project) => project.id === id);
-  console.log(project);
+  if (!project) {
+    // Manejar el caso cuando el proyecto no se encuentra
+    console.log(`No se encontró el proyecto con id: ${id}`);
+    return null;
+  }
   return (
     <main>
       <Navbar />

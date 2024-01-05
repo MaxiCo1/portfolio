@@ -1,5 +1,5 @@
 import styles from "@/styles/Home.module.css";
-import { useAppContext } from "@/contexts/AppContext";
+
 import Navbar from "@/components/navbar/navbar";
 
 export default function Home() {

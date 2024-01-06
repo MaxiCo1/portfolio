@@ -5,21 +5,27 @@ import styles from "@/styles/Project.module.css";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import { useAppContext } from "@/contexts/AppContext";
+import { useState } from "react";
 
 const IndividualProject = () => {
   const { dataLanguage } = useAppContext();
+  const [loading, setLoading] = useState(true);
   const params = useParams();
+
   const id = params.id;
-  const project = dataLanguage.projects.find((project) => project.id === id);
-  if (!project) {
-    // Manejar el caso cuando el proyecto no se encuentra
-    console.log(`No se encontró el proyecto con id: ${id}`);
-    return null;
+  const project = null;
+
+  if (id == null) {
+    setLoading(false);
+  } else if (id != null) {
+    setLoading(true);
+    project = dataLanguage.projects.find((project) => project.id === id);
   }
+
   return (
     <main>
       <Navbar />
-      {
+      {!loading && (
         <section className={styles.container}>
           <Image
             alt={project.id}
@@ -45,7 +51,12 @@ const IndividualProject = () => {
             </div>
           </div>
         </section>
-      }
+      )}
+      {loading && (
+        <div>
+          <p>Loading...</p>
+        </div>
+      )}
     </main>
   );
 };

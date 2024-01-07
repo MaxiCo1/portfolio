@@ -1,31 +1,31 @@
-"use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "@/components/navbar/navbar";
 import styles from "@/styles/Project.module.css";
-import { useParams } from "next/navigation";
+import { useRouter } from "next/router";
 import Image from "next/image";
 import { useAppContext } from "@/contexts/AppContext";
-import { useState } from "react";
 
 const IndividualProject = () => {
   const { dataLanguage } = useAppContext();
+  const router = useRouter();
   const [loading, setLoading] = useState(true);
-  const params = useParams();
+  const [project, setProject] = useState(null);
 
-  const id = params.id;
-  const project = null;
-
-  if (id == null) {
-    setLoading(false);
-  } else if (id != null) {
-    setLoading(true);
-    project = dataLanguage.projects.find((project) => project.id === id);
-  }
+  useEffect(() => {
+    if (router.isReady) {
+      const id = router.query.id;
+      const project = dataLanguage.projects.find(
+        (project) => project.id === id
+      );
+      setProject(project);
+      setLoading(false);
+    }
+  }, [router.isReady, router.query.id, dataLanguage]);
 
   return (
     <main>
       <Navbar />
-      {!loading && (
+      {!loading && project && (
         <section className={styles.container}>
           <Image
             alt={project.id}
@@ -52,11 +52,7 @@ const IndividualProject = () => {
           </div>
         </section>
       )}
-      {loading && (
-        <div>
-          <p>Loading...</p>
-        </div>
-      )}
+      {loading && <div>ERROR</div>}
     </main>
   );
 };

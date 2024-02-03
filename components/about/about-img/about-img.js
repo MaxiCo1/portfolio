@@ -7,12 +7,7 @@ const About_img = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
-        <Image
-          src="/../../../profile-pic.jpg"
-          width={300}
-          height={400}
-          alt="me"
-        />
+        <Image src="/profile-pic.jpg" width={300} height={400} alt="me" />
       </div>
       <p className={styles.name}>Maximiliano Coletti</p>
     </div>

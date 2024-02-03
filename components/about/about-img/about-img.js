@@ -4,10 +4,16 @@ import styles from "./about-img.module.css";
 import { useAppContext } from "@/contexts/AppContext";
 
 const About_img = () => {
-  const { dataLanguage } = useAppContext(); //llamar a img
   return (
     <div className={styles.container}>
-      <Image src="/../../../favicon.ico" width={300} height={300} alt="me" />
+      <div className={styles.imageContainer}>
+        <Image
+          src="/../../../profile-pic.jpg"
+          width={300}
+          height={400}
+          alt="me"
+        />
+      </div>
       <p className={styles.name}>Maximiliano Coletti</p>
     </div>
   );

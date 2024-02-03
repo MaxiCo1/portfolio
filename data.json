@@ -108,7 +108,12 @@
                 "text": "Contact",
                 "url": "/contact"
             }
-    ], "contact": "Phone"
+    ], "contact": "Phone",
+    "cv":
+    {
+        "file": "/CV-english.pdf",
+        "text":"Download CV"    
+    }
         
     },"dataESP":
     {
@@ -222,7 +227,12 @@
             "url": "/contact"
         }
         
-    ], "contact": "Celular"
+    ], "contact": "Celular",
+    "cv":
+    {
+        "file": "/CV-español.pdf",
+        "text":"Descargar CV"    
+    }
         
     }
 }

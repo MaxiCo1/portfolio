@@ -9,8 +9,8 @@
                 "third":"Languages"
             },
             "description": "As a recent graduate in frontend programming, I am eager to apply my skills and knowledge to real-world projects. I am excited to work with a team of experienced developers to learn from their expertise and contribute to the success of the company.", 
-            "skills": ["HTML5","Next.js","JavaScript", "UI design", "CSS", "UX design", "React", "Unity"], 
-            "skillPoints":[4,3,3,3,4,3,3,2], 
+            "skills": ["HTML5","Next.js","JavaScript", "UI design", "CSS", "UX design", "React", "Unity","Axios","Rest API"], 
+            "skillPoints":[4,3,3,3,4,3,3,2,2,2], 
             "languages":["Spanish", "English"], 
             "languagesPoints":[5,4]
         }, 
@@ -21,7 +21,7 @@
             "title2": "Used technologies",
             "image": "/rick&morty.jpg",
             "description":  "This project was one of the first ones I did, in which what was learned in React, Bulma and APIs was put into practice.",
-            "technologies": "",
+            "technologies": "HTML, Bulma, React, Axios, Rest API",
             "buttons":
             [
                 {          
@@ -42,7 +42,7 @@
             "title2": "Used technologies",
             "image": "/buensai.png",
             "description":  "Throughout this university project, the goal was to collaboratively develop an E-Commerce in order to apply what was learned during the year.",
-            "technologies": "Next.js, HTML, CSS, Firebase",
+            "technologies": "Next.js, HTML, CSS, Firebase, Axios, Rest API",
             "buttons":
             [
                 {          
@@ -63,7 +63,7 @@
             "title2": "Used technologies",
             "image": "/runner.png",
             "description":  "Throughout this university project, the aim was to develop a runner genre video game in order to learn the basics of C# and Unity.",
-            "technologies": "Unity & C#",
+            "technologies": "Unity, C# & SQL basics",
             "buttons":
             [
                 {          
@@ -79,7 +79,7 @@
             "title2": "Used technologies",
             "image": "/intoximate.png",
             "description":  "The objective of this project was to improve time and organization skills in a project as close to reality as possible. Prioritizing this, the aim was to develop an MVP of a cocktails and games app for partys.",
-            "technologies": "React Native, Expo, Axios",
+            "technologies": "React Native, CSS, Expo",
             "buttons":
             [
                 {          
@@ -111,7 +111,7 @@
     ], "contact": "Phone",
     "cv":
     {
-        "file": "/CV-english.pdf",
+        "file": "/CV-Maxi-Coletti-ENG.pdf",
         "text":"Download CV"    
     }
         
@@ -126,8 +126,8 @@
             },
             
             "description": "Como recién graduado en programación frontend, estoy ansioso por aplicar mis habilidades y conocimientos a proyectos del mundo real. Estoy emocionado de trabajar con un equipo de desarrolladores experimentados para aprender de su experiencia y contribuir al éxito de la empresa.", 
-            "skills": ["HTML5","Next.js","JavaScript", "Diseño UI", "CSS", "Diseño UX", "React", "Unity"], 
-            "skillPoints":[4,3,3,3,4,3,3,2], 
+            "skills": ["HTML5","Next.js","JavaScript", "Diseño UI", "CSS", "Diseño UX", "React", "Unity", "Axios", "Rest API"], 
+            "skillPoints":[4,3,3,3,4,3,3,2,2,2], 
             "languages":["Español", "Ingles"], 
             "languagesPoints":[5,4]
         }, 
@@ -138,7 +138,7 @@
             "title2": "Tecnologías utilizadas",
             "image": "/rick&morty.jpg",
             "description":  "Este proyecto fue de los primeros que hice, en los que se puso en práctica lo visto en React, Bulma y el llamado a una API.",
-            "technologies": "HTML, Bulma, React",
+            "technologies": "HTML, Bulma, React, Axios, Rest API",
             "buttons":
             [
                 {          
@@ -159,7 +159,7 @@
             "title2": "Tecnologías utilizadas",
             "image": "/buensai.png",
             "description":  "A lo largo de este proyecto universitario se buscó desarrollar en grupo un E-Commerce con el fin de aplicar lo aprendido durante el año.",
-            "technologies": "Next.js, HTML, CSS, Firebase, Axios",
+            "technologies": "Next.js, HTML, CSS, Firebase, Axios, Rest API",
             "buttons":
             [
                 {          
@@ -180,7 +180,7 @@
             "title2": "Tecnologías utilizadas",
             "image": "/runner.png",
             "description":  "A lo largo de este proyecto universitario se buscó desarrollar un videojuego del género runner para así aprender las bases de C# y Unity.",
-            "technologies": "Unity & C#",
+            "technologies": "Unity, C# & SQL basico",
             "buttons":
             [
                 {          
@@ -196,7 +196,7 @@
             "title2": "Tecnologías utilizadas",
             "image": "/intoximate.png",
             "description":  "Este proyecto tuvo como objetivo mejorar la gestión y organización de tiempos en un proyecto lo más cercano a lo real. Priorizando esto, se buscó desarrollar un MVP de una aplicación de tragos y juegos para eventos.",
-            "technologies": "React Native, Expo, Axios",
+            "technologies": "React Native, CSS, Expo",
             "buttons":
             [
                 {          
@@ -230,7 +230,7 @@
     ], "contact": "Celular",
     "cv":
     {
-        "file": "/CV-español.pdf",
+        "file": "/CV-Maxi-Coletti.pdf",
         "text":"Descargar CV"    
     }
         
